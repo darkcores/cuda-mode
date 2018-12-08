@@ -348,7 +348,7 @@ Key bindings:
   ;; analysis and similar things working.
   (c-common-init 'cuda-mode)
   (easy-menu-add cuda-menu)
-  (run-hooks 'c-mode-common-hook)
+  (run-hooks 'c++-mode-common-hook)
   (run-hooks 'cuda-mode-hook)
   (setq font-lock-keywords-case-fold-search t)
   (c-update-modeline))
